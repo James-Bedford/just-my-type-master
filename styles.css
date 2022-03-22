@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  padding: 0;	
+  padding: 0;
 }
 
 #prompt-container {
@@ -12,17 +12,24 @@
 #yellow-block {
   position: absolute;
   margin-top: 10px;
-  width: 15px;
+  width: 10px;
   height: 15px;
   background-color: yellow;
+  left: 10px;
 }
 
 .keyboard-container {
   margin-top: 200px;
 }
 
+#instructions {
+  font-size: 38px;
+  margin-top: 40px;
+}
 #target-letter {
-  font-size: 38px;  
+  font-size: 38px;
+  margin-top: 10px;
+  height: 60px;
 }
 
 .keys-row {
@@ -31,12 +38,20 @@
 }
 
 #feedback {
+  margin-top: 40px;
+  font-family: glyphicon;
+  position: absolute;
   font-size: 20px;
+  left: 10px;
 }
 .glyphicon-ok {
-  color: #1DA237
+  color: #1da237;
 }
 
 .glyphicon-remove {
-  color : #CD2626
+  color: #cd2626;
+}
+
+#keyboard-upper-container {
+  display: none;
 }
